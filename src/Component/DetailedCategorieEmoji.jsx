@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import Loader from './Loader';
 
 function DetailedCategorieEmoji() {
-    // Use useSelector to get data from the Redux store
+    
     const detailedCategoryData = useSelector((state) => state.FetchedCategories);
 
     return (

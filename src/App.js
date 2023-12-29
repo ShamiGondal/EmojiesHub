@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<NavBar/>}>
-          <Route path="/emojies" element={<EmojiesHub/>}></Route>
+          <Route path="/" element={<EmojiesHub/>}></Route>
           <Route path="/emojies" element={<EmojiesHub/>}></Route>
           <Route path="/detailedEmojies" element={<DetailedCategorieEmoji/>}></Route>
           </Route>
